@@ -1,0 +1,9 @@
+.copyright p{
+    margin-top: 50px;
+    padding-top: 50px;
+    height: 60px;
+    color: white;
+    text-align: center;
+    background-color: black;
+    font-size: 17px;
+}
