@@ -1,6 +1,5 @@
 import React from 'react';
 import '../Stylesheets/copy.css';
-import Clear from './clear';
 
 const Copyright = () => {
 
