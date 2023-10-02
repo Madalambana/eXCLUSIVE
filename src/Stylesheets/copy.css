@@ -1,40 +1,35 @@
-
-.copyright{
-    margin-top: 50px;
-    padding-top: 30px;
-    height: 180px;
-    background-color: black;
-    font-size: 17px;
-    
+.copyright {
+  margin-top: 50px;
+  padding-top: 30px;
+  height: 180px;
+  background-color: black;
+  font-size: 17px;
 }
 
-.cpy{
-   text-align: center;
-   color: white;
+.cpy {
+  text-align: center;
+  color: white;
 }
 
-.box1{
-    float: left;
-
-
+.box1 {
+  float: left;
 }
 
-.box2{
-    float: right;
-    margin-right: 40px;
-    text-align: right;
+.box2 {
+  float: right;
+  margin-right: 40px;
+  text-align: right;
 }
 
-.box1 ul{
-    margin-bottom: 30px;
-}  
+.box1 ul {
+  margin-bottom: 30px;
+}
 
-.box2 ul{
-    margin-bottom: 30px;
-}  
+.box2 ul {
+  margin-bottom: 30px;
+}
 
-
-.copyright a{
-    text-decoration: none;
-    color: white;
+.copyright a {
+  text-decoration: none;
+  color: white;
 }
