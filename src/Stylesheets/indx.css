@@ -75,6 +75,7 @@
     background-color: rgb(214, 157, 174);
     padding-top: 10px;
     line-height: 1.5em;
+    margin-bottom: 80px;
  }
 
  .header2{
@@ -94,19 +95,20 @@
  .q1{ 
     float: left;
     box-sizing: border-box;
-    width: 40%;
+    width: 35%;
     margin: auto;
     margin-left: 80px;
 }
 
 .q1 p{
     float: left;
-    width: 50%;
+    width: 45%; 
 }
 
 .brndimg1 {
     float: right;
-    background-image: url("/assets/oppo.png");
+    background-image: url("/assets/oppo.jpg");
+    background-position: center;
     background-size: cover;
     width: 250px;
     height: 300px;
@@ -117,19 +119,20 @@
 .q2{ 
     float: left;
     box-sizing: border-box;
-    width: 40%;
+    width: 35%;
     margin: auto;
     margin-left: 150px;
 }
 
 .q2 p{
     float: left;
-    width: 50%;
+    width: 45%;
 }
 
 .brndimg2 {
     float: right;
-    background-image: url("/assets/oppo.png");
+    background-image: url("/assets/realme.jpg");
+    background-position: center;
     background-size: cover;
     width: 250px;
     height: 300px;
@@ -137,14 +140,14 @@
 }
 
 .topSec2{
-    margin-top: 50px;
+    margin-top: 90px;
 }
 
 
 .q3{ 
     float: left;
     box-sizing: border-box;
-    width: 40%;
+    width: 35%;
     margin: auto;
     margin-left: 80px;
    
@@ -152,12 +155,13 @@
 
 .q3 p{
     float: right;
-    width: 50%;
+    width: 45%;
 }
 
 .brndimg3 {
     float: left;
-    background-image: url("/assets/oppo.png");
+    background-image: url("/assets/vivo.jpg");
+    background-position: center;
     background-size: cover;
     width: 250px;
     height: 300px;
@@ -167,28 +171,30 @@
 .q4{ 
     float: left;
     box-sizing: border-box;
-    width: 40%;
+    width: 35%;
     margin: auto;
-    margin-left: 80px;
+    margin-left: 140px;
    
 }
 
 .q4 p{
     float: right;
-    width: 50%;
+    width: 45%;
 }
 
 .brndimg4 {
     float: left;
-    background-image: url("/assets/oppo.png");
+    background-image: url("/assets/onepls.jpg");
     background-size: cover;
+    background-position: center;
     width: 250px;
     height: 300px;
     border-radius: 20px;
+    
 }
 
 button{
-    margin-top: 20px;
+    margin-top: 50px;
     text-align: center;
     margin-left: 45%;
     width: 150px;
@@ -196,4 +202,50 @@ button{
     background-color: aliceblue;
     border-radius: 20px;
 }
+
+.info-box3{
+    margin-top: 400px;
+    width: 75%; 
+    margin: auto;
+    margin-top: 50px;
+    height: 500px;
+    background-color: rgb(214, 157, 174);
+    padding-top: 10px;
+    line-height: 1.5em;
+ }
+
+ .img3{
+    float: left;
+    background-image: url("/assets/sa.png");
+    background-size: cover;
+    height: 500px;
+    width: 50%;
+ }
+ 
+ .sec2{
+    float: right;
+    box-sizing: border-box;
+    width: 50%;
+ }
+
+ .header3{
+    border-radius: 12px;
+    text-align: center;
+    background-color: aliceblue;
+    margin-top: 50px;
+    margin-left: 150px;
+    margin-bottom: 50px;
+    width: 35%; 
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-right: 5px;
+    padding-left: 5px;
+ }
+
+ .para{
+    margin-left: 50px;
+    width: 80%;
+ }
+
+
 
