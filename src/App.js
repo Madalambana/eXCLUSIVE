@@ -1,8 +1,9 @@
-import Index from '../src/Pages/index';
+//import Index from '../src/Pages/index';
+import Login from '../src/Pages/login';
 
 function App() {
   return (
-    <Index/>
+    <Login/>
   );
 }
 
