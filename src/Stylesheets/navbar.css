@@ -3,6 +3,7 @@
   display: flex;
   background-color: rgb(214, 157, 174);
   align-items: center;
+
 }
 
 .navBar ul {
@@ -24,6 +25,7 @@
   color: black;
 }
 
+
 .SignIn {
   background-image: url("/assets/signin.png");
   background-size: cover;
@@ -35,4 +37,10 @@
 h2 {
   margin-right: 390px;
   margin-left: 30px;
+}
+
+
+.navBar{
+  position: sticky;
+  top: 0px;
 }
