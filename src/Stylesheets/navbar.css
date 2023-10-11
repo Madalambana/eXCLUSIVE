@@ -3,7 +3,8 @@
   display: flex;
   background-color: rgb(214, 157, 174);
   align-items: center;
-
+  position: sticky;
+  top: 0px;
 }
 
 .navBar ul {
@@ -39,8 +40,3 @@ h2 {
   margin-left: 30px;
 }
 
-
-.navBar{
-  position: sticky;
-  top: 0px;
-}

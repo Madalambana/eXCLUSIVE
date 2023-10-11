@@ -3,13 +3,15 @@ import Copyright from "../components/copy";
 import Navbar from "../components/navbar";
 import "../Stylesheets/logn.css";
 import Clear from "../components/clear";
+import { Link } from "react-router-dom";
+
 
 const Login = () => {
   return (
     <div>
       <Navbar />
       <body>
-        <div className="img1"></div>
+        <div className="img_1"></div>
         <div className="login">
           <div className="header">
             <p>Login</p>
@@ -18,9 +20,9 @@ const Login = () => {
             <div className="title">
               <p>
                 Don't have an account?{" "}
-                <a className="a" href="#">
+                <Link className="a" to="/signup">
                   Create a free account
-                </a>
+                </Link>
               </p>
             </div>
 
@@ -30,9 +32,9 @@ const Login = () => {
             <input type="text" name="#" id="#"></input>
 
             <p className="title2">
-              <a className="a" href="#">
+              <Link className="a" to="#">
                 Forgot password?
-              </a>
+              </Link>
             </p>
 
             <button type="submit">Login</button>
