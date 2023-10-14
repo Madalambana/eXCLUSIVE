@@ -1,7 +1,8 @@
 import React from "react";
 import Copyright from "../components/copy";
 import Navbar from "../components/navbar";
-import "../Stylesheets/sprt.css";
+import  styles from "../Stylesheets/sprt.module.css";
+import { Link } from "react-router-dom";
 
 const Support = (props) => {
   return (
@@ -9,23 +10,23 @@ const Support = (props) => {
       <Navbar />
       <body></body>
       <div>
-        <p className="sprt">Personalized Support</p>
+        <p className={styles.sprt}>Personalized Support</p>
 
-        <div className="sec1">
-          <p className="header1">Curious and would like answers?</p>
-          <input type="text" placeholder="'We're all ears...'"></input>
+        <div className={styles.secI}>
+          <p className={styles.headerI}>Curious and would like answers?</p>
+          <input className={styles.inputS} type="text" placeholder="'We're all ears...'"></input>
           
-          <button>
-          <a href="#" className="a">
+          <button className={styles.buttonS}>
+          <Link to="#" className={styles.a}>
             Ask
-          </a>
+          </Link>
           </button>
         </div>
 
-        <div className="sec2">
-          <div className="img1"></div>
-          <p className="header2">Would like to contact us?</p>
-          <p className="info">
+        <div className={styles.secII}>
+          <div className={styles.imgI}></div>
+          <p className={styles.headerII}>Would like to contact us?</p>
+          <p className={styles.info}>
             Lorem ipsum dolor sit amet,consectetur adipiscing elit, sed
             doeiusmod tempor ut labore et dolore magna . Ut enim adminim veniam,
             quis nostrudexercitation ullamco laboris nisi ut aliquip

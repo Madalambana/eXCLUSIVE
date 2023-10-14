@@ -1,7 +1,7 @@
 import React from "react";
 import Copyright from "../components/copy";
 import Navbar from "../components/navbar";
-import "../Stylesheets/logn.css";
+import styles from"../Stylesheets/logn.module.css";
 import Clear from "../components/clear";
 import { Link } from "react-router-dom";
 
@@ -11,33 +11,33 @@ const Login = () => {
     <div>
       <Navbar />
       <body>
-        <div className="img_1"></div>
-        <div className="login">
-          <div className="header">
+        <div className={styles.logo}></div>
+        <div className={styles.login}>
+          <div className={styles.heading}>
             <p>Login</p>
           </div>
           <form method="post">
-            <div className="title">
+            <div className={styles.title}>
               <p>
                 Don't have an account?{" "}
-                <Link className="a" to="/signup">
+                <Link className={styles.aL} to="/signup">
                   Create a free account
                 </Link>
               </p>
             </div>
 
-            <label for="email">Email:</label>
-            <input type="text" name="#" id="#"></input>
-            <label for="passwrd">Password :</label>
-            <input type="text" name="#" id="#"></input>
+            <label className={styles.labelL} for="email">Email:</label>
+            <input className={styles.inputL} type="text" name="#" id="#"></input>
+            <label className={styles.labelL} for="passwrd">Password :</label>
+            <input className={styles.inputL} type="text" name="#" id="#"></input>
 
-            <p className="title2">
-              <Link className="a" to="#">
+            <p className={styles.title2}>
+              <Link className={styles.aL} to="#">
                 Forgot password?
               </Link>
             </p>
 
-            <button type="submit">Login</button>
+            <button className={styles.buttonL} type="submit">Login</button>
           </form>
         </div>
       </body>

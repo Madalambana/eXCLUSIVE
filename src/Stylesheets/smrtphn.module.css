@@ -1,4 +1,4 @@
-.banner {
+.banner{
   background-image: url(/assets/logo5.jpg);
   background-position: center;
   height: 250px;
@@ -8,7 +8,7 @@
   margin-top: 50px;
 }
 
-.sec1 {
+.section {
   margin-top: 80px;
   background-color: rgb(184, 110, 110);
   margin-bottom: 80px;
@@ -20,7 +20,7 @@
   box-sizing: border-box;
 }
 
-.header {
+.head {
   margin-top: 20px;
   background-color: white;
   border-radius: 15px;
@@ -80,7 +80,7 @@
 
 }
 
-.mini-inf{
+.miniInf{
   float: left;
     width: 50%;
     margin-top: 10px;
@@ -90,7 +90,7 @@
     text-align: center;
 }
 
-.img1{
+.display{
   margin-top: 30px;
     float: left;
     width: 45%;
@@ -98,7 +98,7 @@
     height: 300px
 }
 
-button{
+.buttonSM{
   float: right; 
   margin-right: 17%;
   text-align: center;
@@ -109,7 +109,7 @@ button{
   border-radius: 20px;
 }
 
-.a{
+.aSM{
   text-decoration: none;
   color:rgb(100, 100, 100);
 

@@ -1,4 +1,4 @@
-.img_1 {
+.logo {
   float: left;
   background-image: url("/assets/logo.png");
   background-size: cover;
@@ -22,7 +22,7 @@
   margin-bottom: 10px;
 }
 
-.header {
+.heading {
   border-radius: 12px;
   text-align: center;
   background-color: aliceblue;
@@ -45,12 +45,12 @@
   color: white;
 }
 
-.a {
+.aL {
   text-decoration: none;
   color: rgb(100, 100, 100);
 }
 
-input {
+.inputL {
   padding-top: 12px;
   width: 450px;
   border-radius: 10px;
@@ -59,7 +59,7 @@ input {
   margin-top: 25px;
 }
 
-label {
+.labelL {
   padding: 10px;
   margin-left: 20px;
   font-size: 20px;
@@ -73,7 +73,7 @@ label {
   color: rgb(100, 100, 100);
 }
 
-button {
+.buttonL {
   margin-top: 50px;
   text-align: center;
   margin-left: 40%;

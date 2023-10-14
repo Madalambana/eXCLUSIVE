@@ -9,7 +9,7 @@
   margin-bottom: 10px;
 }
 
-.header1 {
+.headSU {
   border-radius: 12px;
   text-align: center;
   background-color: aliceblue;
@@ -25,14 +25,14 @@
   padding-bottom: 10px;
 }
 
-label {
+.labelSU {
   padding: 10px;
   margin-left: 20px;
   font-size: 20px;
   color: white;
 }
 
-input {
+.inputSU {
   text-align: center;
   padding-top: 12px;
   width: 400px;
@@ -43,7 +43,7 @@ input {
   height: 20px;
 }
 
-button {
+.buttonSU {
   margin-top: 50px;
   text-align: center;
   margin-left: 40%;
@@ -54,7 +54,7 @@ button {
   border-radius: 20px;
 }
 
-.a {
+.aSU {
   text-decoration: none;
   color: rgb(100, 100, 100);
 }

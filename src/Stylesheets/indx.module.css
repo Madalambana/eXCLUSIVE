@@ -8,7 +8,7 @@
   color: rgb(143, 53, 53);
 }
 
-.info-box1 {
+.infoBox1 {
   width: 98%;
   margin: auto;
   margin-top: 50px;
@@ -66,7 +66,7 @@
   padding-top: 1px;
 }
 
-.info-box2 {
+.infoBox2 {
   width: 98%;
   margin: auto;
   margin-top: 50px;
@@ -187,7 +187,7 @@
   border-radius: 20px;
 }
 
-button {
+.buttonidx {
   margin-top: 50px;
   text-align: center;
   margin-left: 45%;
@@ -197,7 +197,7 @@ button {
   border-radius: 20px;
 }
 
-.info-box3 {
+.infoBox3 {
   margin-top: 400px;
   width: 75%;
   margin: auto;

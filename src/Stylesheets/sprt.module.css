@@ -8,7 +8,7 @@
   padding-left: 450px;
 }
 
-.sec1 {
+.secI {
   background-color: rgb(184, 110, 110);
   margin-bottom: 80px;
   height: 300px;
@@ -17,7 +17,7 @@
   margin-right: 30px;
 }
 
-.header1 {
+.headerI {
   padding: 10px;
   background-color: aliceblue;
   border-radius: 10px;
@@ -28,7 +28,7 @@
   margin-bottom: 30px;
 }
 
-input {
+.inputS {
   margin-top: 20px;
   padding-top: 10px;
   padding-bottom: 10px;
@@ -38,7 +38,7 @@ input {
   text-align: center;
 }
 
-button {
+.buttonS {
   margin-top: 50px;
   text-align: center;
   margin-left: 45%;
@@ -54,7 +54,7 @@ button {
   color: black;
 }
 
-.img1 {
+.imgI {
   background-image: url(/assets/contact.png);
   background-position: center;
   background-size: cover;
@@ -65,7 +65,7 @@ button {
   margin-left: 30px;
 }
 
-.sec2 {
+.secII {
   margin-top: 80px;
   background-color: rgb(184, 110, 110);
   margin-bottom: 80px;
@@ -76,7 +76,7 @@ button {
   padding-left: 70px;
 }
 
-.header2{
+.headerII{
     float: left;
     padding: 10px;
     background-color:aliceblue;

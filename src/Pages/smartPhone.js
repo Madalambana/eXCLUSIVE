@@ -1,28 +1,29 @@
 import React from "react";
 import Copyright from "../components/copy";
 import Navbar from "../components/navbar";
-import "../Stylesheets/smrtphn.css";
+import styles from "../Stylesheets/smrtphn.module.css";
 import Clear from "../components/clear";
+import { Link } from "react-router-dom";
 
 const Smartphones = (props) => {
   return (
     <div>
       <Navbar />
-      <div className="banner">
+      <div className={styles.banner}>
         <p>Smartphones</p>
       </div>
 
-      <div className="sec1">
+      <div className={styles.section}>
         {/* realme */}
-        <div className="header">
+        <div className={styles.head}>
           <h3>realme</h3>
         </div>
         <Clear/>
 
         {/* quadrant 1 */}
-        <div className="floatlft">
-        <div className="img1"></div>
-        <div className="mini-inf">
+        <div className={styles.floatlft}>
+        <div className={styles.display}></div>
+        <div className={styles.miniInf}>
             <p>
               {" "}
               Lorem ipsum dolor sit amet,consectetur adipiscing elit, sed
@@ -32,17 +33,17 @@ const Smartphones = (props) => {
             </p>
           </div>
 
-          <button>
-            <a href="#" className="a">
+          <button className={styles.buttonSM}>
+            <Link to="#" className={styles.aSM}>
               Purchase
-            </a>
+            </Link>
           </button>
         </div>
 
         {/* quadrant 2 */}
-        <div className="floatrght">
-          <div className="img1"></div>
-          <div className="mini-inf">
+        <div className={styles.floatrght}>
+          <div className={styles.display}></div>
+          <div className={styles.miniInf}>
             <p>
               {" "}
               Lorem ipsum dolor sit amet,consectetur adipiscing elit, sed
@@ -52,19 +53,19 @@ const Smartphones = (props) => {
             </p>
           </div>
 
-          <button>
-            <a href="#" className="a">
+          <button className={styles.buttonSM}>
+            <Link to="#" className={styles.aSM}>
               Purchase
-            </a>
+            </Link>
           </button>
         </div>
 
         <Clear />
 
         {/* quadrant 3 */}
-        <div className="floatlft">
-        <div className="img1"></div>
-        <div className="mini-inf">
+        <div className={styles.floatrght}>
+          <div className={styles.display}></div>
+          <div className={styles.miniInf}>
             <p>
               {" "}
               Lorem ipsum dolor sit amet,consectetur adipiscing elit, sed
@@ -74,17 +75,17 @@ const Smartphones = (props) => {
             </p>
           </div>
 
-          <button>
-            <a href="#" className="a">
+          <button className={styles.buttonSM}>
+            <Link to="#" className={styles.aSM}>
               Purchase
-            </a>
+            </Link>
           </button>
         </div>
 
         {/* quadrant 4 */}
-        <div className="floatrght">
-        <div className="img1"></div>
-        <div className="mini-inf">
+        <div className={styles.floatrght}>
+          <div className={styles.display}></div>
+          <div className={styles.miniInf}>
             <p>
               {" "}
               Lorem ipsum dolor sit amet,consectetur adipiscing elit, sed
@@ -94,10 +95,10 @@ const Smartphones = (props) => {
             </p>
           </div>
 
-          <button>
-            <a href="#" className="a">
+          <button className={styles.buttonSM}>
+            <Link to="#" className={styles.aSM}>
               Purchase
-            </a>
+            </Link>
           </button>
         </div>
 
