@@ -3,8 +3,12 @@ import Copyright from "../components/copy";
 import Navbar from "../components/navbar";
 import styles from "../Stylesheets/indx.module.css";
 import Clear from "../components/clear";
+import { useNavigate } from "react-router-dom";
 
 const Index = () => {
+  const navigate = useNavigate();
+
+
   return (
     <div>
       <div className={styles.banner}>
@@ -87,7 +91,8 @@ const Index = () => {
             </div>
           </div>
           <Clear />
-          <button className={styles.buttonidx}>
+          <button className={styles.buttonidx}
+          onClick={()=> navigate('/phones')}>
             <p>And more...</p>
           </button>
         </div>

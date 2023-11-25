@@ -32,7 +32,7 @@ const Login = () => {
             <input className={styles.inputL} type="text" name="#" id="#"></input>
 
             <p className={styles.title2}>
-              <Link className={styles.aL} to="#">
+              <Link className={styles.aL} to="/reset">
                 Forgot password?
               </Link>
             </p>

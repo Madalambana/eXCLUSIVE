@@ -4,8 +4,13 @@ import Navbar from "../components/navbar";
 import styles from "../Stylesheets/smrtphn.module.css";
 import Clear from "../components/clear";
 import { Link } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
 const Smartphones = (props) => {
+
+  const navigate = useNavigate();
+
+
   return (
     <div>
       <Navbar />
@@ -33,7 +38,8 @@ const Smartphones = (props) => {
             </p>
           </div>
 
-          <button className={styles.buttonSM}>
+          <button className={styles.buttonSM}
+          onClick={()=> navigate('/select')}>
             <Link to="#" className={styles.aSM}>
               Purchase
             </Link>

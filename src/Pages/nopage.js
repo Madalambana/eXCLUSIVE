@@ -13,6 +13,14 @@ const NoPage = (props) =>  {
      <br/>
      <br/>
      <p><Link to='/'>Home</Link></p>
+     <br/>
+     <br/>
+     <br/>
+     <br/>
+     <br/>
+     <br/>     
+     <br/>
+     <br/>
      <Copyright/>
     </div>
   );
