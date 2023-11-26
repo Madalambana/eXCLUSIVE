@@ -1,5 +1,5 @@
 import React from "react";
-import Copyright from "./copy";
+import Copyright from "../components/copy";
 import Navbar from "../components/navbar";
 import styles from "../Stylesheets/smrtphn.module.css";
 import Clear from "../components/clear";
