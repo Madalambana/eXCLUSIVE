@@ -1,5 +1,6 @@
 import React from 'react';
 import '../Stylesheets/copy.css';
+import { Link } from 'react-router-dom';
 
 const Copyright = () => {
 
@@ -11,13 +12,13 @@ const Copyright = () => {
           </div>
          
           <div className='box1'>
-          <ul><a href=''>Privacy Policy</a></ul>
-          <ul><a href=''>Disclaimer</a></ul>
+          <ul><Link to=''>Privacy Policy</Link></ul>
+          <ul><Link to=''>Disclaimer</Link></ul>
           </div>
         
           <div className='box2'>
-          <ul><a href=''>Terms and conditions</a></ul>
-          <ul><a href=''>About Us</a></ul>
+          <ul><Link to=''>Terms and conditions</Link></ul>
+          <ul><Link to=''>About Us</Link></ul>
           </div>
           
 

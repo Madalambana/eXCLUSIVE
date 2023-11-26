@@ -1,5 +1,5 @@
 import React from "react";
-import Copyright from "../components/copy";
+import Copyright from "./copy";
 import Navbar from "../components/navbar";
 import styles from "../Stylesheets/smrtphn.module.css";
 import Clear from "../components/clear";
@@ -40,7 +40,7 @@ const Smartphones = (props) => {
 
           <button className={styles.buttonSM}
           onClick={()=> navigate('/select')}>
-            <Link to="#" className={styles.aSM}>
+            <Link to="" className={styles.aSM}>
               Purchase
             </Link>
           </button>
@@ -60,7 +60,7 @@ const Smartphones = (props) => {
           </div>
 
           <button className={styles.buttonSM}>
-            <Link to="#" className={styles.aSM}>
+            <Link to="" className={styles.aSM}>
               Purchase
             </Link>
           </button>
@@ -82,7 +82,7 @@ const Smartphones = (props) => {
           </div>
 
           <button className={styles.buttonSM}>
-            <Link to="#" className={styles.aSM}>
+            <Link to="" className={styles.aSM}>
               Purchase
             </Link>
           </button>
@@ -102,7 +102,7 @@ const Smartphones = (props) => {
           </div>
 
           <button className={styles.buttonSM}>
-            <Link to="#" className={styles.aSM}>
+            <Link to="" className={styles.aSM}>
               Purchase
             </Link>
           </button>
@@ -110,9 +110,9 @@ const Smartphones = (props) => {
 
         <Clear />
         
-          <a href="#">
+          <Link to="">
           <div className="more"></div>
-          </a>
+          </Link>
         
       </div>
       <Copyright />

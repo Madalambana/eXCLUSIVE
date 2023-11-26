@@ -1,5 +1,5 @@
 import React from "react";
-import Copyright from "../components/copy";
+import Copyright from "./copy";
 import Navbar from "../components/navbar";
 import styles from "../Stylesheets/sel.module.css";
 
