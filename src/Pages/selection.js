@@ -4,13 +4,7 @@ import Navbar from "../components/navbar";
 import styles from "../Stylesheets/sel.module.css";
 
 const Selection = (props) => {
-  var basket = 0;
-  function addBasket() {
-    basket++;
-    
-  console.log(addBasket );
-  }
-
+ 
   return (
     <div>
       <Navbar/>
@@ -27,7 +21,7 @@ const Selection = (props) => {
           </p>      
         </div>
 
-        <button onClick={()=> addBasket} className={styles.button1}>
+        <button className={styles.button1}>
             Wishlist
           </button>
           <button className={styles.button2}>
